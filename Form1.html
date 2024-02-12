@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+       
+        body
+        {
+            font-family: "Comic Sans MS", sans-serif;
+            color: whitesmoke;
+            background-image: url(BG.jpg);
+            background-attachment: fixed;
+            font-style:oblique ;
+        }
+        h1{
+            font-family: "Old English Text MT",sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .border{
+            color: whitesmoke;
+            padding:10px;
+            margin-top: 20px;
+            border: 2px solid white;
+            box-shadow: 0 0 10px whitesmoke;
+            border-radius: 0px 20px 0px 20px; 
+            background-color: rgba(250, 235, 215, 0.196);
+           
+        }
+        #br{
+            border: 2px solid white;
+        }
+        table{
+            width: 100%;
+        }
+        .Ibox{
+            font-style:italic;
+            border: none;
+            background: none;
+            border-bottom: 2px solid whitesmoke;
+            outline: none;
+            color: whitesmoke;
+        }
+        #aa{
+            background-image: url(black.jpeg);
+        font-family: "Old English Text MT",sans-serif;
+        
+            margin-left:600px ;
+            padding: 5px 35px;
+        }
+        #ab{
+            background-image: url(black.jpeg);
+        font-family: "Old English Text MT",sans-serif;
+        
+            margin-left:-350px;
+            padding: 5px 35px;
+        }
+        #aa:hover,#ab:hover{
+            box-shadow: 0 0 20px whitesmoke;
+
+        }
+        fieldset legend{
+        background-image: url(black.jpeg);
+        font-family: "Old English Text MT",sans-serif;
+        box-shadow: 0 0 10px whitesmoke;
+       }
+       th{
+        text-align: left;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Online Job Application form</h1>
+        <form>
+            <fieldset class="border">
+                <legend class="border" id="br">Personal info</legend>
+                <table>
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                        <td><label>Middle Name</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                        <td><label>Last Name</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Father's Name</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                        <td><label>Mother's Name</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Current Address</label></td>
+                        <td><textarea class="Ibox"></textarea></td>
+                        <td><label>Permanent Address</label></td>
+                        <td><textarea  class="Ibox"></textarea></td>
+                    </tr>
+                    <tr>
+                       <td><label >Phone Number</label></td> 
+                       <td><input type="number" class="Ibox" id=""></td>
+                       <td><label >Landline Number</label></td>
+                       <td><input type="number" class="Ibox" id=""></td> 
+
+                    </tr>
+                    <tr>
+                        <td><label>Date of Birth</label></td>
+                        <td><input type="date" class="Ibox" name="" id=""></td>
+                        <td><label >Place of Birth</label></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label >Select Gender</label></td>
+                        <td><input type="radio" name="g">Male</td>
+                        <td><input type="radio" name="g">Female</td>
+                    </tr>
+                    <tr>
+                        <td><label >Highest Qualification</label></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><label >Year of passing</label></td>
+                        <td><input type="month" class="Ibox"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label >Language known</label></td>
+                        <td><input type="checkbox" class="Ibox" id="">English</td>
+                        <td><input type="checkbox" class="Ibox" id="">Hindi</td>
+                        <td><input type="checkbox" class="Ibox" id="">Telugu</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label >Hobbies</label></td>
+                        <td><input type="checkbox" class="Ibox" id="">Eating</td>
+                        <td><input type="checkbox" class="Ibox" id="">Coding</td>
+                        <td><input type="checkbox" class="Ibox" id="">Edit</td>
+                    </tr>
+                    <tr>
+                        <td><label >About Yourself</label></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Nationality</label></td>
+                        <td><select class="Ibox">
+                            <option value="">Other</option>
+                            <option value="">Indian</option>
+                            <option value="">USA</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label >Adhar Card No.</label></td>
+                        <td><input type="number"class="Ibox"></td>
+                        <td><label >PAN Card Number</label></td>
+                        <td><input type="text" class="Ibox"></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <fieldset class="border">
+                <legend class="border">Education Details</legend>
+                <table>
+                    <thead>
+                    <th>SNO</th>
+                    <th>Qualification</th>
+                    <th>University/Board Name</th>
+                    <th>Year of passing</th>
+                    <th>Marks%</th>
+                </thead>
+                    <tr>
+                        <td><label>1</label></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="number" class="Ibox" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label >2</label></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="number" class="Ibox" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label >3</label></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="text" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="number" class="Ibox" id=""></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset class="border">
+                <legend class="border">Work Experience</legend>
+                <table>
+                    <thead>
+                    <th>SNO</th>
+                    <th>Company</th>
+                    <th>Work/Role</th>
+                    <th>From Date</th>
+                    <th>To Date</th>
+                </thead>
+                    <tr>
+                        <td><label >1</label></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label >2</label></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label >3</label></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><textarea name="" class="Ibox"></textarea></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                        <td><input type="date" class="Ibox" id=""></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset class="border">
+                <legend class="border">Other Details</legend>
+                <table>
+                    <tr>
+                        <td><label >Job Type:</label></td>
+                        <td><input type="radio" name="a3">Permanent</td>
+                        <td><input type="radio" name="a3">Contract</td>
+                        <td><input type="radio" name="a3">Other</td>
+                    </tr>
+                    <td><label for="">Date of joining</label></td>
+                    <td><input type="date" class="Ibox"></td>
+                    <td><label for="">Time of joining</label></td>
+                    <td><input type="time" class="Ibox"></td>
+                    <tr>
+                    <td><label for="">Reason for leaving previous job?</label></td>
+                    <td colspan="4"><textarea name="" class="Ibox"></textarea></td>
+              </tr>
+              <tr>
+                <td><label for="">Previous Employer Name & Address</label></td>
+                <td colspan="5"><textarea name="" class="Ibox"></textarea></td>
+              </tr>
+              <tr>
+                <td><label for="">Preffered Job Location</label></td>
+                <td><input type="radio" name="a1" id="">Hyderabad</td>
+                <td><input type="radio" name="a1" id="">Bangalore</td>
+                <td><input type="radio" name="a1" id="">Other</td>
+              </tr>
+              <tr>
+                <td><label for="">Willing to locate Hyderabad?</label></td>
+                <td><input type="radio" name="a2" id="">Yes</td>
+                <td><input type="radio" name="a2" id="">No</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="" id="">I'm here declaring that all the above mentioned information is ture as per my knowledge.</td>
+              </tr>
+              <tr  >
+                
+              <td colspan="2"><input type="submit" value="Submit" class="border" id="aa"></td>
+              <td><input type="reset" value="Reset" class="border" id="ab"></td>
+            <td></td>
+            </tr>
+              </table>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
